@@ -1,0 +1,2 @@
+#mkdir -p /Volumes/PHONESD/savaJe/bundles/Sudoku/
+cp -R dist/* /Volumes/PHONESD/savaJe/bundles/Sudoku/

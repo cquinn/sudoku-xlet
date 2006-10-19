@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<jnlp codebase="sb:///Sudoku/">
+
+  <resources>
+    <j2se version="1.4+"/>
+    <jar href="lib/classes.jar"/>
+  </resources>
+
+  <information>
+    <title>Sudoku</title>
+    <vendor>Carl</vendor>
+    <description>Sudoku Puzzle</description>
+  </information>
+
+  <application-desc main-class="org.quinn.sudoku.xlet.SudokuXlet">
+  </application-desc>
+
+</jnlp>

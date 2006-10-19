@@ -1,0 +1,3 @@
+grant codeBase "sb:///Sudoku/lib/classes.jar" {
+  permission java.security.AllPermission;
+};

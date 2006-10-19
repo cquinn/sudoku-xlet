@@ -1,0 +1,16 @@
+# dist is where we'll build our complete distribution image
+rm -rf dist
+mkdir -p dist/lib
+
+cp src/bundle.* dist
+
+# staging is where we merge the class tree to build the jar
+rm -rf staging
+mkdir -p staging/org/quinn
+cp -R classes/org/quinn/* staging/org/quinn
+cp -R ../sudoku-ui/classes/org/quinn/* staging/org/quinn
+cp -R ../sudoku-eng/classes/org/quinn/* staging/org/quinn
+
+cd staging
+zip -0 -r ../dist/lib/classes.jar *
+cd ..

@@ -1,0 +1,1 @@
+A simple sudoku GUI in Swing for solving predefined puzzles. The game can run on the desktop under Java SE as an application, or on a portable device under Java ME CDC as an Xlet.
